@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BiblioRary.Books.genre.Interface
+namespace BiblioRary.Books.Interface
 {
     public interface IFunny
     {
-        //void makeSmile();
+        void makeSmile();
     }
 }

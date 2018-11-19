@@ -8,6 +8,7 @@ namespace BiblioRary.Books.Interface
     {
         string Titel { get; set; }
         string Genre { get; set; }
+        int Weight { get; set; }
         bool IsTaken { get; set; }
     }
 }

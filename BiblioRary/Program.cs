@@ -8,7 +8,7 @@ namespace BiblioRary
         {
             var biblioRary = BiblioRary.Instance();
             biblioRary.FillBiblioRary();
-            Console.WriteLine("Hello World!");
+            biblioRary.PrintInfo();
             Console.ReadLine();
         }
     }
