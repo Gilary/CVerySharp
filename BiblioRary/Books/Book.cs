@@ -5,12 +5,13 @@ using System.Text;
 
 namespace BiblioRary.Books
 {
-    public class Book : IBook
+    public abstract class Book : IBook
     {
         public string Titel { get; set; }
         public string Genre { get; set; }
         public int Weight { get; set; }
         public bool IsTaken { get; set; }
+        public abstract void Reaction();
         public DateTime Date { get; set; } = DateTime.Now;
         protected Book()
         {

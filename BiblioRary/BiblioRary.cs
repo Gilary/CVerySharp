@@ -63,6 +63,8 @@ namespace BiblioRary
                 Console.WriteLine($"Type boeken: {book.GetType().Name}. " +
                                   $"Titel: {book.Titel}, " +
                                   $"Gewicht: {book.Weight}.");
+                Console.Write("Reaction:");
+                book.Reaction();
             }
         }
 

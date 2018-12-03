@@ -10,5 +10,6 @@ namespace BiblioRary.Books.Interface
         string Genre { get; set; }
         int Weight { get; set; }
         bool IsTaken { get; set; }
+        void Reaction();
     }
 }

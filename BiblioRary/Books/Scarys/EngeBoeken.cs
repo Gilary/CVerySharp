@@ -15,5 +15,9 @@ namespace BiblioRary.Books.Scarys
         {
             Console.WriteLine("*run* Waah *run*");
         }
+        public override void Reaction()
+        {
+            runsAway();
+        }
     }
 }

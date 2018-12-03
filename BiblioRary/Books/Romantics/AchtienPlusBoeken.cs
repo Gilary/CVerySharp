@@ -12,10 +12,13 @@ namespace BiblioRary.Books.Romantics
             : base(weight, "FiftyShadesOfPeach")
         {
         }
-
         public void kiss()
         {
             Console.WriteLine("mwuh mwuah oelala");
+        }
+        public override void Reaction()
+        {
+            kiss();
         }
     }
 }

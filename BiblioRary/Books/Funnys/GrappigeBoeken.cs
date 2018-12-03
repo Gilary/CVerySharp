@@ -15,5 +15,9 @@ namespace BiblioRary.Books.funnys
         {
             Console.WriteLine("whahaha");
         }
+        public override void Reaction()
+        {
+            makeSmile();
+        }
     }
 }
